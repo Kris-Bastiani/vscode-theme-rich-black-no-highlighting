@@ -1,0 +1,31 @@
+{
+	"name": "vscode-theme-rich-black-no-highlighting",
+	"displayName": "Rich black, no highlighting - VS Code theme",
+	"description": "A VSCode theme that removes all syntax highlighting apart from dimming comments.",
+	"version": "0.1.0",
+	"publisher": "KrisBastiani",
+	"engines": {
+		"vscode": "^1.102.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"homepage": "https://github.com/Kris-Bastiani/vscode-theme-rich-black-no-highlighting",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kris-Bastiani/vscode-theme-rich-black-no-highlighting"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Rich black, no highlighting",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rich-black-no-highlighting-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"publisherDisplayName": "Kris Bastiani",
+		"publisherId": "KrisBastiani"
+	}
+}
